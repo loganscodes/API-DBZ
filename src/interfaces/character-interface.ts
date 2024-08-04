@@ -8,6 +8,7 @@ export interface Character {
     maxKi: string
     name: string
     race: string
+    url: string
     transformations: [
         {
             image: string

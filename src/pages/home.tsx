@@ -1,8 +1,11 @@
-import AllCharacters from "../components/AllCharacters"
+import AllCharacters from "../components/Characters/AllCharacters"
+import Layout from "../Layout/Layout"
 
 const HomePage = () => {
     return (
-        <AllCharacters/>
+        <Layout>
+            <AllCharacters/>
+        </Layout>
     )
 }
 
